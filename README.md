@@ -2,6 +2,16 @@
 
 This repo is intended to study muon conversion on titanium at Mu2e.
 
+## To do
+
+- Add a starting geometry file for the Ti target
+- Check where the MuBeam stage stops in Run 1A, if past the Ti target switch to the Run 1B MuBeam
+- Add a muon stop fcl that produces stops in the aluminum and titanium targets
+- Add CE simulation fcl for the titanium muon stops
+- Evaluate the stopping rate and reconstruction efficiency for the Ti target
+
+Start with a baseline target thickness, then version control the datasets for different target geometries.
+
 ## Setting up
 
 ```bash
