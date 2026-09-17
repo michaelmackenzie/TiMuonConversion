@@ -30,6 +30,9 @@ Compile on mu2ebuild02
 ssh mu2ebuild02
 mu2einit
 cd /exp/mu2e/app/users/${USER}/mu2eti/
+# make a build dir on the data disk
+mkdir -p /exp/mu2e/data/users/${USER}/builds/mu2eti/
+ln -s /exp/mu2e/data/users/${USER}/builds/mu2eti build
 muse setup
 time muse build --mu2eCompactPrint --mu2ePyWrap --mu2eCBD -j20
 ```
